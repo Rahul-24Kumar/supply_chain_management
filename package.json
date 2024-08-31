@@ -1,0 +1,30 @@
+{
+  "name": "supply_chain_management",
+  "version": "1.0.0",
+  "description": "A blockchain-based supply chain management system implemented with Node.js and MySQL.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahul-24kumar/supply_chain_management.git"
+  },
+  "author": "Rahul Kumar",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0",
+    "yarn": ">=4.4.1"
+  }
+}
