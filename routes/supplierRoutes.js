@@ -1,4 +1,3 @@
-// routes/supplierRoutes.js
 import express from 'express';
 import { addSupplier } from '../controllers/supplierController.js';
 
@@ -10,7 +9,5 @@ router.post('/suppliers', (req, res) => {
   addSupplier(name, contactEmail);
   res.status(201).send('Supplier added successfully.');
 });
-
-// You can add more routes related to suppliers here
 
 export default router;

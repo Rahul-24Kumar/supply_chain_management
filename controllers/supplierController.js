@@ -1,4 +1,3 @@
-// controllers/supplierController.js
 import { createSupplierTable } from '../models/supplier.js';
 import connection from '../config/db.js';
 

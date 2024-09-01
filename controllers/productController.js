@@ -1,4 +1,3 @@
-// controllers/productController.js
 import connection from '../config/db.js';
 
 // Function to create the product table

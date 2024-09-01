@@ -1,4 +1,3 @@
-// models/product.js
 import connection from '../config/db.js';
 
 export const createProductTable = () => {

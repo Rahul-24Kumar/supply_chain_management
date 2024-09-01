@@ -1,4 +1,3 @@
-// models/supplier.js
 import connection from '../config/db.js';
 
 export const createSupplierTable = () => {
